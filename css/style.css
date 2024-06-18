@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Helvetica, sans-serif;
+    font-size: 1.6em;
+}
+
+body>section.perfil-advogado {
+    width: 100%;
+    height: 100vh;
+    max-height: 998px;
+    /*background-color: rgb(36, 46, 63);*/
+    background-image: url(../util/img/8a697723-5156-4c22-8aef-d926b1e828f1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+body>.perfil-advogado>.img-advogado {
+    width: 40%;
+    height: 100%;
+    margin-left: 3vw;
+    border-radius: 0;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column-reverse;
+
+}
+
+
+
+
+.img-advogado img {
+
+
+    max-height: 97%;
+
+    width: 440.5px;
+
+    /*width: 80%;
+    align-self: baseline;*/
+
+}
+
+body>.perfil-advogado>.informacoes-advogado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 45%;
+    margin-right: 0;
+    color: rgb(255, 255, 255);
+
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
+}
+
+body>.perfil-advogado h1 {
+    font-size: 4.08vw;
+    width: 110%;
+    margin: 0;
+    text-shadow: 4px 4px 3.5px rgb(0, 0, 0);
+
+}
+
+body>.perfil-advogado p {
+    width: 84%;
+    font-size: 1.8vw;
+    margin: 60px 0;
+    color: rgb(255, 255, 255);
+}
+
+body>.perfil-advogado button {
+    background-color: rgba(199, 144, 41, 0.80);
+    height: 90px;
+    width: 98%;
+    max-width: 550px;
+    padding: 10px;
+
+    font-size: 1.88vw;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black;
+
+    border-radius: 40px;
+    margin-top: 0px;
+    border: none;
+    cursor: pointer;
+}
+
+body>.perfil-advogado button:hover {
+    background-color: rgba(199, 144, 42);
+    box-shadow: 7px 7px 10px 3px black;
+    scale: 1.001;
+    transition: 0.8s all;
+}
+
+/*
+@media (min-width:600px) and (max-width: 902px) {
+    body>.perfil-advogado>.img-advogado {
+        margin-left: -42px;
+    }
+
+    body>.perfil-advogado>.informacoes-advogado {
+
+        position: relative;
+        left: 2.7%;
+
+    }
+
+    body>.perfil-advogado h1 {
+        font-size: 4.05vw;
+        width: 110%;
+        margin: 0;
+    }
+
+    body>.perfil-advogado p {
+        width: 84%;
+        font-size: 1.8vw;
+        margin: 60px 0;
+        color: rgb(255, 255, 255);
+    }
+
+    body>.perfil-advogado button {
+        background-color: rgba(199, 144, 41, 0.80);
+        height: 90px;
+        width: 98%;
+        max-width: 550px;
+        padding: 10px;
+
+        font-size: 1.88vw;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 1px black;
+
+        border-radius: 40px;
+        margin-top: 0px;
+        border: none;
+        cursor: pointer;
+    }
+
+}
+
+
+/*mobile ---------------------------------------------- */
+/*@media (max-width: 600px) {
+    body {
+        margin: 0px;
+        padding: 0;
+    }
+
+    body>section.perfil-advogado {
+        display: flex;
+        /* align-items: center; */
+/*
+        justify-content: start;
+        align-content: center;
+        flex-direction: column;
+
+        background: none;
+
+        background-image: url(../util/img/8a697723-5156-4c22-8aef-d926b1e828f1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top right;
+
+        max-height: none;
+        width: 100vw;
+        border-radius: none;
+        height: 1400px;
+        max-height: 1900;
+    }
+
+    body>section.perfil-advogado>.img-advogado {
+        width: 100%;
+        height: 70vh;
+        /* Defina a altura para 100vh */
+/* margin: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: baseline;
+        background-image: url(../util/img/8a697723-5156-4c22-8aef-d926b1e828f1.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: top center;
+    }
+
+
+    body>section.perfil-advogado img {
+        width: 400px;
+        margin: 0px;
+    }
+
+}
+
+/* body>section.perfil-advogado>.img-advogado::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 8%;
+    /* Ajuste esta porcentagem para alterar a parte da imagem que será translúcida /
+    background: linear-gradient(to bottom, rgba(226, 226, 225, 0.1) 15%, rgba(226, 226, 225, 0.1) 50%, rgba(226, 226, 225, 0.1) 70%);
+} */
