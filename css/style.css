@@ -76,26 +76,30 @@ body>.perfil-advogado p {
     color: rgb(255, 255, 255);
 }
 
-body>.perfil-advogado button {
+body>.perfil-advogado a {
     background-color: rgba(199, 144, 41, 0.80);
     height: 90px;
     width: 98%;
     max-width: 550px;
     padding: 10px;
+    display: flex;
+    align-items: center;
 
     font-size: 1.88vw;
     color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 1px black;
+    box-shadow: 3px 3px 12px 3px black;
+    text-shadow: 1.5px 1.5px 0.3px black;
 
     border-radius: 40px;
     margin-top: 0px;
     border: none;
-    cursor: pointer;
+    /* cursor: pointer; */
+    text-decoration: none;
 }
 
-body>.perfil-advogado button:hover {
+body>.perfil-advogado a:hover {
     background-color: rgba(199, 144, 42);
-    box-shadow: 7px 7px 10px 3px black;
+    box-shadow: 7px 7px 9px 3px black;
     scale: 1.001;
     transition: 0.8s all;
 }
@@ -147,7 +151,7 @@ body>.perfil-advogado button:hover {
 
 
 /*mobile ---------------------------------------------- */
-/*@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     body {
         margin: 0px;
         padding: 0;
