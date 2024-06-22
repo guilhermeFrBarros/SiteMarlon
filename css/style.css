@@ -1,9 +1,11 @@
-body {
+*,
+html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Helvetica, sans-serif;
     font-size: 1.6em;
+    color: rgb(0, 0, 0);
 }
 
 body>section.perfil-advogado {
@@ -15,11 +17,9 @@ body>section.perfil-advogado {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
-
     display: flex;
     align-items: center;
     justify-content: space-around;
-
 }
 
 body>.perfil-advogado>.img-advogado {
@@ -28,24 +28,13 @@ body>.perfil-advogado>.img-advogado {
     margin-left: 3vw;
     border-radius: 0;
     display: flex;
-    justify-content: baseline;
-    flex-direction: column-reverse;
-
+    flex-direction: row;
+    align-items: flex-end;
 }
 
-
-
-
 .img-advogado img {
-
-
     max-height: 97%;
-
     width: 440.5px;
-
-    /*width: 80%;
-    align-self: baseline;*/
-
 }
 
 body>.perfil-advogado>.informacoes-advogado {
@@ -62,46 +51,219 @@ body>.perfil-advogado>.informacoes-advogado {
 }
 
 body>.perfil-advogado h1 {
-    font-size: 4.08vw;
+    font-size: 64px;
     width: 110%;
     margin: 0;
     text-shadow: 4px 4px 3.5px rgb(0, 0, 0);
+    color: aliceblue;
 
 }
 
 body>.perfil-advogado p {
     width: 84%;
-    font-size: 1.8vw;
+    font-size: 24px;
     margin: 60px 0;
     color: rgb(255, 255, 255);
 }
 
 body>.perfil-advogado a {
-    background-color: rgba(199, 144, 41, 0.80);
-    height: 90px;
+    background: linear-gradient(to right, rgba(199, 144, 41, 0.65) 30%,
+            rgba(199, 144, 41, 0.78) 45%, rgba(199, 144, 41, 0.95) 80%);
+    min-height: 90px;
     width: 98%;
-    max-width: 550px;
-    padding: 10px;
+    max-width: 555px;
+    padding: 12px;
     display: flex;
     align-items: center;
 
-    font-size: 1.88vw;
+    font-size: 27px;
     color: rgb(255, 255, 255);
     box-shadow: 3px 3px 12px 3px black;
     text-shadow: 1.5px 1.5px 0.3px black;
 
-    border-radius: 40px;
+    border-radius: 45px;
     margin-top: 0px;
     border: none;
     /* cursor: pointer; */
     text-decoration: none;
 }
 
+body>.perfil-advogado a img {
+    width: 36px;
+    filter: brightness(0) saturate(100%) invert(24%) sepia(83%) saturate(600%) hue-rotate(4deg) brightness(93%) contrast(97%);
+}
+
 body>.perfil-advogado a:hover {
     background-color: rgba(199, 144, 42);
     box-shadow: 7px 7px 9px 3px black;
-    scale: 1.001;
-    transition: 0.8s all;
+    scale: 1.01;
+    transition: 1s all;
+}
+
+
+/*area cards -----------------*/
+
+main {
+    background-color: rgb(231, 236, 241);
+    display: flex;
+    flex-direction: column;
+}
+
+main>h2 {
+    text-align: center;
+    font-size: 90px;
+    color: rgb(36, 46, 63);
+    margin: 20px 0;
+    text-shadow: 4px 5px 7px rgba(36, 46, 63, 0.7);
+}
+
+main>.cards-sevico {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main>.cards-sevico>.card-sevico {
+    width: 26.5vw;
+    min-width: 350px;
+    min-height: 450px;
+    margin: 25px 1px;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 25px 25px 125px 25px;
+    box-shadow: 8px 8px 15px 1px black;
+    border: none;
+}
+
+main>.cards-sevico>.card-sevico:hover {
+    transition: 0.7s all;
+    transform: scale(1.09);
+    background-color: rgba(255, 255, 255, 1);
+    cursor: default;
+}
+
+main>.cards-sevico>.card-sevico img {
+    height: 76px;
+    width: 76px;
+}
+
+main>.cards-sevico>.card-sevico h3 {
+    color: rgba(199, 144, 41, 0.9);
+    font-size: 45px;
+    /* text-shadow: 2px 2px 8px black; */
+}
+
+main>.cards-sevico>.card-sevico p {
+    color: rgb(36, 46, 63);
+    font-size: 23px;
+    padding: 15px 55px;
+}
+
+main>.cards-sevico>.card-sevico a {
+    height: 76px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgba(199, 144, 41, 0.6) 25%,
+            rgba(199, 144, 41, 0.78) 40%, rgb(199, 144, 41) 75%);
+    padding: 8px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    border-radius: 50px;
+
+}
+
+main>.cards-sevico>.card-sevico a:hover {
+    scale: 1.05;
+    transition: .5s all;
+}
+
+main>.cards-sevico>.card-sevico a img {
+    width: 27px;
+    height: 27px;
+}
+
+main>.cards-sevico>.card-sevico>a p {
+    width: 180px;
+    text-align: center;
+    padding: 0;
+    color: rgba(72, 47, 0, 0.92);
+    font-weight: bolder;
+}
+
+/* Area do Endereço */
+main>.endereco {
+    background-color: rgb(36, 46, 63);
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+main>.endereco>h3 {
+    color: white;
+    font-size: 35px;
+    margin: 25px 1px;
+}
+
+main>.endereco>.mapa-conteudo {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+main>.endereco>.mapa-conteudo iframe {
+    border-radius: 55px 0 55px 0px;
+}
+
+/* Area de Contato */
+main>section.box-contato {
+    font-size: 10px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: flex-start;
+
+    flex-direction: column;
+}
+
+main>section.box-contato h4 {
+    font-size: 44px;
+    margin: 15px auto;
+}
+
+main>section.box-contato .contato {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 190px;
+    font-size: 16px;
+    margin-bottom: 8px;
+    /* align-items; */
+}
+
+main>section.box-contato .contato address {
+    font-size: 25px;
+}
+
+main>section.box-contato .contato a {
+    font-size: 25px;
+    text-decoration: none;
+
+}
+
+main>section.box-contato .contato img {
+    width: 27px;
+    margin: 0px 15px;
 }
 
 /*
