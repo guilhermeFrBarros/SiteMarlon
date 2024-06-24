@@ -97,7 +97,7 @@ body>.perfil-advogado a:hover {
 /*area cards -----------------*/
 
 main {
-    background-color: rgb(231, 236, 241);
+    background-color: #e7ecf1;
     display: flex;
     flex-direction: column;
 }
@@ -105,7 +105,7 @@ main {
 main>h2 {
     text-align: center;
     font-size: 90px;
-    color: rgb(36, 46, 63);
+    color: #242e3f;
     margin: 20px 0;
     text-shadow: 4px 5px 7px rgba(36, 46, 63, 0.7);
 }
@@ -121,41 +121,39 @@ main>.cards-sevico>.card-sevico {
     min-width: 350px;
     min-height: 450px;
     margin: 25px 1px;
-    padding: 0px 10px;
+    padding: 0 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     text-align: center;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 25px 25px 125px 25px;
     box-shadow: 8px 8px 15px 1px black;
     border: none;
+    transition: 0.7s all;
 }
 
 main>.cards-sevico>.card-sevico:hover {
-    transition: 0.7s all;
     transform: scale(1.09);
     background-color: rgba(255, 255, 255, 1);
     cursor: default;
 }
 
 main>.cards-sevico>.card-sevico img {
-    height: 76px;
-    width: 76px;
+    height: 72px;
+    width: 72px;
 }
 
 main>.cards-sevico>.card-sevico h3 {
     color: rgba(199, 144, 41, 0.9);
     font-size: 45px;
-    /* text-shadow: 2px 2px 8px black; */
 }
 
 main>.cards-sevico>.card-sevico p {
     color: rgb(36, 46, 63);
     font-size: 23px;
-    padding: 15px 55px;
+    padding: 15px 50px;
 }
 
 main>.cards-sevico>.card-sevico a {
@@ -167,15 +165,14 @@ main>.cards-sevico>.card-sevico a {
     background: linear-gradient(to right, rgba(199, 144, 41, 0.6) 25%,
             rgba(199, 144, 41, 0.78) 40%, rgb(199, 144, 41) 75%);
     padding: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-decoration: none;
     border-radius: 50px;
-
+    transition: .5s all;
 }
 
 main>.cards-sevico>.card-sevico a:hover {
-    scale: 1.05;
-    transition: .5s all;
+    transform: scale(1.05);
 }
 
 main>.cards-sevico>.card-sevico a img {
