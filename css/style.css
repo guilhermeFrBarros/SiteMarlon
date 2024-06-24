@@ -198,9 +198,14 @@ main>.cards-sevico>.card-sevico>a p {
     font-weight: bolder;
 }
 
+/* BOX-SOBRE */
+main>section.box-sobre {
+    background-color: rgb(36, 46, 63);
+}
+
 /* Area do Endereço */
 main>.endereco {
-    background-color: rgb(36, 46, 63);
+    background-color: rgb(231, 236, 241);
     height: 520px;
     display: flex;
     flex-direction: column;
@@ -211,8 +216,9 @@ main>.endereco {
 
 main>.endereco>h3 {
     color: white;
-    font-size: 35px;
+    font-size: 55px;
     margin: 25px 1px;
+    color: black
 }
 
 main>.endereco>.mapa-conteudo {
@@ -228,42 +234,53 @@ main>.endereco>.mapa-conteudo iframe {
 /* Area de Contato */
 main>section.box-contato {
     font-size: 10px;
-    height: 200px;
-    background-color: rgba(255, 255, 255, 1);
+    height: 280px;
+    background-color: rgb(36, 46, 63);
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 
     flex-direction: column;
 }
 
 main>section.box-contato h4 {
-    font-size: 44px;
-    margin: 15px auto;
+    text-align: center;
+    font-size: 55px;
+    margin: 0px auto 35px auto;
+    color: rgb(231, 236, 241);
 }
 
 main>section.box-contato .contato {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 190px;
+    margin-left: 10vw;
     font-size: 16px;
     margin-bottom: 8px;
+
     /* align-items; */
 }
 
 main>section.box-contato .contato address {
-    font-size: 25px;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
 }
 
 main>section.box-contato .contato a {
-    font-size: 25px;
+    font-size: 28px;
     text-decoration: none;
+    color: rgb(255, 255, 255);
 
 }
 
 main>section.box-contato .contato img {
-    width: 27px;
+    width: 35px;
     margin: 0px 15px;
+    filter: brightness(0) saturate(100%) invert(93%) sepia(9%) saturate(5157%) hue-rotate(181deg) brightness(130%) contrast(88%);
+
+}
+
+main>section.box-contato .contato #instagram {
+    filter: none;
 }
 
 /*
