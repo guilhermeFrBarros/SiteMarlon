@@ -62,7 +62,8 @@ body>.perfil-advogado p {
     color: #fff;
 }
 
-body>.perfil-advogado a {
+body>.perfil-advogado a,
+.buttom-whats {
     background: linear-gradient(to right, rgba(199, 144, 41, 0.65) 30%,
             rgba(199, 144, 41, 0.78) 45%, rgba(199, 144, 41, 0.95) 80%);
     min-height: 90px;
@@ -87,7 +88,8 @@ body>.perfil-advogado a img {
     filter: brightness(0) saturate(100%) invert(24%) sepia(83%) saturate(600%) hue-rotate(4deg) brightness(93%) contrast(97%);
 }
 
-body>.perfil-advogado a:hover {
+body>.perfil-advogado a:hover,
+.buttom-whats:hover {
     background-color: #c7902a;
     box-shadow: 7px 7px 9px 3px black;
     scale: 1.01;
@@ -191,6 +193,97 @@ main>.cards-sevico>.card-sevico>a p {
 /* BOX-SOBRE */
 main>section.box-sobre {
     background-color: rgb(36, 46, 63);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+}
+
+main>section.box-sobre h4 {
+    font-size: 58px;
+    color: #e7ecf1;
+    margin: 25px 0;
+}
+
+main>section.box-sobre .desc-sobre {
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+    background-color: #e7ecf1;
+    width: 95%;
+    height: 608px;
+    margin-bottom: 30px;
+    display: flex;
+
+    border-radius: 20px;
+}
+
+
+
+main>section.box-sobre .desc-sobre div.div-p {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+main>section.box-sobre .desc-sobre div.div-p h3 {
+    margin: 20px 0 1px 0;
+    font-size: 47px;
+    color: black;
+    text-shadow: #000 1.5px 1px 3px;
+}
+
+main>section.box-sobre .desc-sobre div.div-p span {
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 1px;
+    color: rgb(210, 148, 34);
+    /* position: relative;
+    bottom: 90px;*/
+}
+
+main>section.box-sobre .desc-sobre p {
+    font-size: 2.6vw;
+    text-align: center;
+    padding: 0 2.5vw;
+    color: #242e3f;
+}
+
+main>section.box-sobre .desc-sobre div.div-p img {
+    width: 27px;
+    height: 27px;
+    padding: 0;
+    margin: 0 25px;
+}
+
+main>section.box-sobre>.desc-sobre>div.div-p .buttom-whats {
+    height: 20px;
+    width: 70%;
+    text-shadow: none;
+    margin-top: 30px;
+    text-align: start;
+    position: relative;
+    top: 3vw;
+}
+
+main>section.box-sobre .desc-sobre div.div-img {
+    height: 100%;
+    display: flex;
+    align-items: end;
+    background: linear-gradient(15deg, rgba(36, 46, 63, .3) 5%,
+            rgba(36, 46, 63, .50)15%, rgba(36, 46, 63, .85)40%, rgba(36, 46, 63, .9944) 65%);
+
+}
+
+
+main>section.box-sobre .desc-sobre img {
+    width: 354px;
+    height: 604px;
+    margin: 0 3.3vw;
 }
 
 /* Area do Endereço */
@@ -219,6 +312,8 @@ main>.endereco>.mapa-conteudo {
 
 main>.endereco>.mapa-conteudo iframe {
     border-radius: 55px 0 55px 0px;
+    box-shadow: #000 8px 8px 30px 2px;
+
 }
 
 /* Area de Contato */
@@ -228,7 +323,6 @@ main>section.box-contato {
     background-color: rgb(36, 46, 63);
     display: flex;
     justify-content: center;
-
     flex-direction: column;
 }
 
@@ -246,27 +340,19 @@ main>section.box-contato .contato {
     margin-left: 10vw;
     font-size: 16px;
     margin-bottom: 8px;
-
-    /* align-items; */
 }
 
-main>section.box-contato .contato address {
-    font-size: 28px;
-    color: rgb(255, 255, 255);
-}
-
+main>section.box-contato .contato address,
 main>section.box-contato .contato a {
     font-size: 28px;
+    color: #fff;
     text-decoration: none;
-    color: rgb(255, 255, 255);
-
 }
 
 main>section.box-contato .contato img {
     width: 35px;
     margin: 0px 15px;
     filter: brightness(0) saturate(100%) invert(93%) sepia(9%) saturate(5157%) hue-rotate(181deg) brightness(130%) contrast(88%);
-
 }
 
 main>section.box-contato .contato #instagram {
