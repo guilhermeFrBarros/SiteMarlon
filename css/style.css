@@ -194,10 +194,12 @@ main>.cards-sevico>.card-sevico>a p {
 main>section.box-sobre {
     background-color: rgb(36, 46, 63);
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    height: 750px;
+    /* align-items: center; */
+    align-content: center;
+    min-height: 750px;
 }
 
 main>section.box-sobre h4 {
@@ -218,8 +220,6 @@ main>section.box-sobre .desc-sobre {
 
     border-radius: 20px;
 }
-
-
 
 main>section.box-sobre .desc-sobre div.div-p {
     height: 100%;
@@ -268,6 +268,7 @@ main>section.box-sobre>.desc-sobre>div.div-p .buttom-whats {
     text-align: start;
     position: relative;
     top: 3vw;
+    font-size: 2.2vw;
 }
 
 main>section.box-sobre .desc-sobre div.div-img {
@@ -359,8 +360,8 @@ main>section.box-contato .contato #instagram {
     filter: none;
 }
 
-/*
-@media (min-width:600px) and (max-width: 902px) {
+/* Responsividade ------------------------------------------*/
+@media (min-width:600px) and (max-width: 950px) {
     body>.perfil-advogado>.img-advogado {
         margin-left: -42px;
     }
@@ -368,41 +369,41 @@ main>section.box-contato .contato #instagram {
     body>.perfil-advogado>.informacoes-advogado {
 
         position: relative;
-        left: 2.7%;
+        left: 0;
 
     }
 
     body>.perfil-advogado h1 {
-        font-size: 4.05vw;
-        width: 110%;
+        font-size: 4.5vw;
+        width: 120%;
         margin: 0;
     }
 
     body>.perfil-advogado p {
-        width: 84%;
-        font-size: 1.8vw;
+        width: 85%;
+        font-size: 1.9vw;
         margin: 60px 0;
         color: rgb(255, 255, 255);
     }
 
-    body>.perfil-advogado button {
-        background-color: rgba(199, 144, 41, 0.80);
+    body>.perfil-advogado a,
+    .buttom-whats {
         height: 90px;
         width: 98%;
         max-width: 550px;
         padding: 10px;
 
-        font-size: 1.88vw;
-        color: rgb(255, 255, 255);
-        text-shadow: 1px 1px 1px black;
+        font-size: 2vw;
 
-        border-radius: 40px;
-        margin-top: 0px;
-        border: none;
-        cursor: pointer;
+    }
+
+    body>.perfil-advogado a img {
+        width: 27px;
     }
 
 }
+
+
 
 
 /*mobile ---------------------------------------------- */
