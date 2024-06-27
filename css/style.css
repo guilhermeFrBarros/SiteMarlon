@@ -31,7 +31,7 @@ body>.perfil-advogado>.img-advogado {
 
 .img-advogado img {
     max-height: 97%;
-    width: 440.5px;
+    width: 444.5px;
 }
 
 body>.perfil-advogado>.informacoes-advogado {
@@ -46,18 +46,19 @@ body>.perfil-advogado>.informacoes-advogado {
     text-shadow: 3px 3px 4px #000;
 }
 
+
 body>.perfil-advogado h1 {
-    font-size: 64px;
+    font-size: 4.513vw;
     width: 110%;
     margin: 0;
     text-shadow: 4px 4px 3.5px #000;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 
 }
 
 body>.perfil-advogado p {
     width: 84%;
-    font-size: 24px;
+    font-size: 1.78vw;
     margin: 60px 0;
     color: #fff;
 }
@@ -66,13 +67,13 @@ body>.perfil-advogado a,
 .buttom-whats {
     background: linear-gradient(to right, rgba(199, 144, 41, 0.65) 30%,
             rgba(199, 144, 41, 0.78) 45%, rgba(199, 144, 41, 0.95) 80%);
-    min-height: 90px;
+    /* min-height: 80px; */
     width: 98%;
-    max-width: 555px;
+    max-width: 557px;
     padding: 12px;
     display: flex;
     align-items: center;
-    font-size: 27px;
+    font-size: 1.91vw;
     color: #fff;
     box-shadow: 3px 3px 12px 3px black;
     text-shadow: 1.5px 1.5px 0.3px black;
@@ -92,7 +93,7 @@ body>.perfil-advogado a:hover,
 .buttom-whats:hover {
     background-color: #c7902a;
     box-shadow: 7px 7px 9px 3px black;
-    scale: 1.01;
+    scale: 1.02;
 }
 
 
@@ -197,7 +198,7 @@ main>section.box-sobre {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     align-content: center;
     min-height: 750px;
 }
@@ -206,6 +207,7 @@ main>section.box-sobre h4 {
     font-size: 58px;
     color: #e7ecf1;
     margin: 25px 0;
+    text-align: center;
 }
 
 main>section.box-sobre .desc-sobre {
@@ -261,7 +263,7 @@ main>section.box-sobre .desc-sobre div.div-p img {
 }
 
 main>section.box-sobre>.desc-sobre>div.div-p .buttom-whats {
-    height: 20px;
+    height: 80px;
     width: 70%;
     text-shadow: none;
     margin-top: 30px;
@@ -320,7 +322,7 @@ main>.endereco>.mapa-conteudo iframe {
 /* Area de Contato */
 main>section.box-contato {
     font-size: 10px;
-    height: 280px;
+    height: 300px;
     background-color: rgb(36, 46, 63);
     display: flex;
     justify-content: center;
@@ -330,7 +332,7 @@ main>section.box-contato {
 main>section.box-contato h4 {
     text-align: center;
     font-size: 55px;
-    margin: 0px auto 35px auto;
+    margin: 5px auto 35px auto;
     color: rgb(231, 236, 241);
 }
 
@@ -338,7 +340,7 @@ main>section.box-contato .contato {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 10vw;
+    margin-left: 6vw;
     font-size: 16px;
     margin-bottom: 8px;
 }
@@ -361,39 +363,40 @@ main>section.box-contato .contato #instagram {
 }
 
 /* Responsividade ------------------------------------------*/
-@media (min-width:600px) and (max-width: 950px) {
+@media (min-width:750.01px) and (max-width: 950px) {
     body>.perfil-advogado>.img-advogado {
         margin-left: -42px;
     }
 
-    body>.perfil-advogado>.informacoes-advogado {
+    body>.perfil-advogado>.img-advogado img {
+        max-height: 97%;
+        width: 418.5px;
+    }
 
+    body>.perfil-advogado>.informacoes-advogado {
         position: relative;
         left: 0;
-
     }
 
     body>.perfil-advogado h1 {
-        font-size: 4.5vw;
+        font-size: 4.6vw;
         width: 120%;
         margin: 0;
     }
 
     body>.perfil-advogado p {
-        width: 85%;
-        font-size: 1.9vw;
+        width: 90%;
+        font-size: 2vw;
         margin: 60px 0;
         color: rgb(255, 255, 255);
     }
 
-    body>.perfil-advogado a,
-    .buttom-whats {
+    body>.perfil-advogado a {
         height: 90px;
-        width: 98%;
+        width: 88%;
         max-width: 550px;
         padding: 10px;
-
-        font-size: 2vw;
+        font-size: 2.2vw;
 
     }
 
@@ -401,8 +404,222 @@ main>section.box-contato .contato #instagram {
         width: 27px;
     }
 
+    /* box-sobre-*/
+    main>section.box-sobre {}
+
+    main>section.box-sobre h4 {
+        font-size: 54px;
+    }
+
+    main>section.box-sobre .desc-sobre {}
+
+    main>section.box-sobre .desc-sobre div.div-p {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+    }
+
+    main>section.box-sobre .desc-sobre div.div-p h3 {
+        font-size: 48px;
+    }
+
+    main>section.box-sobre .desc-sobre div.div-p span {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    main>section.box-sobre .desc-sobre p {
+        font-size: 2.9vw;
+        padding: 0 2.8vw;
+    }
+
+    main>section.box-sobre>.desc-sobre>div.div-p .buttom-whats {
+        width: 85%;
+        font-size: 2.5vw;
+    }
+
+    main>section.box-sobre .desc-sobre div.div-p img {
+
+        margin: 0 1.4vw 0 -0.3vw;
+    }
+
+
+    main>section.box-sobre .desc-sobre div.div-img {}
+
+
+    main>section.box-sobre .desc-sobre div.div-img img {
+        width: 338px;
+        height: 590px;
+        margin: 0 2vw;
+    }
 }
 
+@media (max-width: 750px) {
+    body>section.perfil-advogado {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 101vh;
+        overflow: hidden;
+    }
+
+    body>.perfil-advogado>.img-advogado {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    .img-advogado img {
+        width: 55vw;
+        min-width: none;
+        min-width: 420px;
+    }
+
+    body>.perfil-advogado>.informacoes-advogado {
+        width: 100%;
+        background: rgba(36, 46, 63, 0.95);
+        margin: 0;
+        height: 200px;
+
+    }
+
+
+
+    body>.perfil-advogado .informacoes-advogado h1 {
+        font-size: 7.7vw;
+        width: 89%;
+        margin: 0;
+        position: absolute;
+        bottom: 215px;
+        background-color: rgba(0, 0, 0, .01);
+    }
+
+    body>.perfil-advogado p {
+        width: 70%;
+        font-size: 3.4vw;
+        margin: 50px 0;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        bottom: 95px;
+    }
+
+    body>.perfil-advogado a {
+        height: 70px;
+        min-height: none;
+        width: 80%;
+        max-width: 550px;
+        padding: 10px;
+        margin: 0;
+
+        font-size: 3.5vw;
+        position: absolute;
+        bottom: 18px;
+    }
+
+    body>.perfil-advogado a img {
+        width: 27px;
+    }
+
+    /* card */
+    main>h2 {
+        font-size: 60px;
+    }
+
+
+    /* BOX-SOBRE-------------------------------------------------------- */
+    main>section.box-sobre {
+
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        height: 1300px;
+    }
+
+    main>section.box-sobre h4 {
+        font-size: 10.5vw;
+
+    }
+
+    main>section.box-sobre .desc-sobre {
+        display: flex;
+        flex-direction: column-reverse;
+
+        width: 95%;
+        height: 85%;
+        margin-bottom: 30px;
+
+    }
+
+    main>section.box-sobre .desc-sobre div.div-p {
+        height: 55%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    main>section.box-sobre .desc-sobre div.div-p h3 {
+        margin: 20px 0 1px 0;
+        font-size: 49px;
+    }
+
+    main>section.box-sobre .desc-sobre div.div-p span {
+        font-size: 35px;
+        margin-bottom: 40px;
+        margin-top: 1px;
+        /* position: relative;
+    bottom: 90px;*/
+    }
+
+    main>section.box-sobre .desc-sobre p {
+        font-size: 3.4vw;
+        text-align: center;
+        padding: 0 2.5vw;
+        color: #242e3f;
+    }
+
+    main>section.box-sobre .desc-sobre div.div-p img {
+        width: 27px;
+        height: 27px;
+        padding: 0;
+        margin: 0 15px;
+    }
+
+    main>section.box-sobre>.desc-sobre>div.div-p .buttom-whats {
+        height: 80px;
+        width: 80%;
+        text-shadow: none;
+        margin-top: 30px;
+        text-align: start;
+        position: relative;
+        top: 3vw;
+        font-size: 4.2vw;
+    }
+
+    main>section.box-sobre .desc-sobre div.div-img {
+        max-height: none;
+        height: 610px;
+        width: 100%;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+
+    }
+
+
+    main>section.box-sobre .desc-sobre img {
+        width: 354px;
+        height: 604px;
+        margin: 0 0;
+    }
+
+
+
+}
 
 
 
