@@ -459,7 +459,12 @@ main>section.box-contato .contato #instagram {
 
     main>section.box-contato .contato img {
         width: 35px;
-        margin: 0px 5px 0 -30px;
+        margin: 0px 5px 0 -5px;
+    }
+
+    main>section.box-contato .contato address,
+    main>section.box-contato .contato a {
+        font-size: 4vw;
     }
 }
 
@@ -630,6 +635,11 @@ main>section.box-contato .contato #instagram {
     main>section.box-contato .contato img {
         width: 28px;
         margin: 0px 5px 0 -10px;
+    }
+
+    main>section.box-contato .contato address,
+    main>section.box-contato .contato a {
+        font-size: 5vw;
     }
 
 }
