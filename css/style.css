@@ -466,7 +466,6 @@ main>section.box-contato .contato #instagram {
         display: flex;
         justify-content: center;
         width: 100%;
-
     }
 
     .img-advogado img {
@@ -479,16 +478,12 @@ main>section.box-contato .contato #instagram {
         width: 100%;
         background: rgba(36, 46, 63, 0.95);
         margin: 0;
-        height: 14vh;
-
+        height: 2vh;
     }
-
-
 
     body>.perfil-advogado .informacoes-advogado h1 {
         font-size: 7.7vw;
         width: 89%;
-        margin: 0;
         position: absolute;
         bottom: 215px;
         background-color: rgba(0, 0, 0, .01);
@@ -510,7 +505,6 @@ main>section.box-contato .contato #instagram {
         max-width: 550px;
         padding: 10px;
         margin: 0;
-
         font-size: 4vw;
         position: absolute;
         bottom: 18px;
@@ -525,10 +519,8 @@ main>section.box-contato .contato #instagram {
         font-size: 60px;
     }
 
-
     /* BOX-SOBRE-------------------------------------------------------- */
     main>section.box-sobre {
-
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
@@ -537,17 +529,14 @@ main>section.box-contato .contato #instagram {
 
     main>section.box-sobre h4 {
         font-size: 10.5vw;
-
     }
 
     main>section.box-sobre .desc-sobre {
         display: flex;
         flex-direction: column-reverse;
-
         width: 95%;
         height: 85%;
         margin-bottom: 30px;
-
     }
 
     main>section.box-sobre .desc-sobre div.div-p {
@@ -564,31 +553,23 @@ main>section.box-contato .contato #instagram {
 
     main>section.box-sobre .desc-sobre div.div-p span {
         font-size: 35px;
-        margin-bottom: 40px;
-        margin-top: 1px;
-        /* position: relative;
-    bottom: 90px;*/
     }
 
     main>section.box-sobre .desc-sobre p {
         font-size: 4.8vw;
-        text-align: center;
-        padding: 0 2.5vw;
-        color: #242e3f;
     }
 
     main>section.box-sobre .desc-sobre div.div-p img {
-        width: 27px;
+        /* width: 27px;
         height: 27px;
-        padding: 0;
+        padding: 0; */
         margin: 0 15px;
     }
 
     main>section.box-sobre>.desc-sobre>div.div-p .buttom-whats {
-        height: 80px;
+        /* height: 80px; */
         width: 85%;
-        text-shadow: none;
-        /* text-align: start; */
+        /* text-shadow: none; */
         position: relative;
         top: 3vw;
         font-size: 4.8vw;
@@ -601,12 +582,11 @@ main>section.box-contato .contato #instagram {
         display: flex;
         align-items: end;
         justify-content: center;
-
     }
 
     main>section.box-sobre .desc-sobre img {
-        width: 354px;
-        height: 604px;
+        width: 350px;
+        height: 600px;
         margin: 0 0;
     }
 
@@ -615,14 +595,13 @@ main>section.box-contato .contato #instagram {
         margin: 20px 0px 45px;
     }
 
-    main>section.box-contato .contato img {
-        width: 28px;
-        margin: 0px 5px 0 -10px;
-    }
-
     main>section.box-contato .contato address,
     main>section.box-contato .contato a {
         font-size: 5vw;
     }
 
+    main>section.box-contato .contato img {
+        width: 28px;
+        margin: 0px 5px 0 -10px;
+    }
 }
