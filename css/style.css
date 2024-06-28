@@ -369,7 +369,6 @@ main>section.box-contato .contato #instagram {
     }
 
     body>.perfil-advogado>.img-advogado img {
-        max-height: 97%;
         width: 418.5px;
     }
 
@@ -381,14 +380,12 @@ main>section.box-contato .contato #instagram {
     body>.perfil-advogado h1 {
         font-size: 4.6vw;
         width: 120%;
-        margin: 0;
     }
 
     body>.perfil-advogado p {
         width: 90%;
         font-size: 2vw;
         margin: 60px 0;
-        color: rgb(255, 255, 255);
     }
 
     body>.perfil-advogado a {
@@ -397,7 +394,6 @@ main>section.box-contato .contato #instagram {
         max-width: 550px;
         padding: 10px;
         font-size: 2.2vw;
-
     }
 
     body>.perfil-advogado a img {
@@ -405,21 +401,8 @@ main>section.box-contato .contato #instagram {
     }
 
     /* box-sobre-*/
-    main>section.box-sobre {}
-
     main>section.box-sobre h4 {
         font-size: 54px;
-    }
-
-    main>section.box-sobre .desc-sobre {}
-
-    main>section.box-sobre .desc-sobre div.div-p {
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        text-align: center;
     }
 
     main>section.box-sobre .desc-sobre div.div-p h3 {
@@ -442,7 +425,6 @@ main>section.box-contato .contato #instagram {
     }
 
     main>section.box-sobre .desc-sobre div.div-p img {
-
         margin: 0 1.4vw 0 -0.3vw;
     }
 
@@ -452,6 +434,7 @@ main>section.box-contato .contato #instagram {
         margin: 0 2vw;
     }
 
+    /* contato ---------------------------------*/
     main>section.box-contato h4 {
         font-size: 7.7vw;
         margin: 20px 0px 45px;
