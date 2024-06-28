@@ -560,16 +560,11 @@ main>section.box-contato .contato #instagram {
     }
 
     main>section.box-sobre .desc-sobre div.div-p img {
-        /* width: 27px;
-        height: 27px;
-        padding: 0; */
         margin: 0 15px;
     }
 
     main>section.box-sobre>.desc-sobre>div.div-p .buttom-whats {
-        /* height: 80px; */
         width: 85%;
-        /* text-shadow: none; */
         position: relative;
         top: 3vw;
         font-size: 4.8vw;
@@ -595,7 +590,6 @@ main>section.box-contato .contato #instagram {
         margin: 20px 0px 45px;
     }
 
-    /*-*/
     main>section.box-contato .contato address,
     main>section.box-contato .contato a {
         font-size: 5vw;
