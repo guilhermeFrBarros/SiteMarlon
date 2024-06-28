@@ -446,14 +446,15 @@ main>section.box-contato .contato #instagram {
         margin: 0 1.4vw 0 -0.3vw;
     }
 
-
-    main>section.box-sobre .desc-sobre div.div-img {}
-
-
     main>section.box-sobre .desc-sobre div.div-img img {
         width: 338px;
         height: 590px;
         margin: 0 2vw;
+    }
+
+    main>section.box-contato h4 {
+        font-size: 7.7vw;
+        margin: 20px 0px 45px;
     }
 }
 
@@ -616,7 +617,7 @@ main>section.box-contato .contato #instagram {
     }
 
     main>section.box-contato h4 {
-        font-size: 35px;
+        font-size: 7.7vw;
         margin: 20px 0px 45px;
     }
 
