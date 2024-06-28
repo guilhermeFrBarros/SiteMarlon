@@ -615,4 +615,9 @@ main>section.box-contato .contato #instagram {
         margin: 0 0;
     }
 
+    main>section.box-contato h4 {
+        font-size: 35px;
+        margin: 20px 0px 45px;
+    }
+
 }
