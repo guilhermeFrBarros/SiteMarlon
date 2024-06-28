@@ -322,7 +322,7 @@ main>.endereco>.mapa-conteudo iframe {
 /* Area de Contato */
 main>section.box-contato {
     font-size: 10px;
-    height: 300px;
+    height: 330px;
     background-color: rgb(36, 46, 63);
     display: flex;
     justify-content: center;
