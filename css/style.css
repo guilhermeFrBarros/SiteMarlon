@@ -456,8 +456,14 @@ main>section.box-contato .contato #instagram {
         font-size: 7.7vw;
         margin: 20px 0px 45px;
     }
+
+    main>section.box-contato .contato img {
+        width: 35px;
+        margin: 0px 5px;
+    }
 }
 
+/* ---------------------------------------------------*/
 @media (max-width: 750px) {
     body>section.perfil-advogado {
         flex-direction: column;
@@ -619,6 +625,11 @@ main>section.box-contato .contato #instagram {
     main>section.box-contato h4 {
         font-size: 7.7vw;
         margin: 20px 0px 45px;
+    }
+
+    main>section.box-contato .contato img {
+        width: 28px;
+        margin: 0px 5px 0 -10px;
     }
 
 }
