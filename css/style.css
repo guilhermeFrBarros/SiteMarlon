@@ -516,7 +516,7 @@ main>section.box-contato .contato #instagram {
 
     /* card */
     main>h2 {
-        font-size: 10vw;
+        font-size: 8vw;
     }
 
     /* BOX-SOBRE-------------------------------------------------------- */
@@ -588,6 +588,10 @@ main>section.box-contato .contato #instagram {
     main>section.box-contato h4 {
         font-size: 7.7vw;
         margin: 20px 0px 45px;
+    }
+
+    main>section.box-contato {
+        margin: 0 0 0 4px;
     }
 
     main>section.box-contato .contato address,
