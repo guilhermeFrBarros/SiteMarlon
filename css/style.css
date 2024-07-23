@@ -482,20 +482,20 @@ main>section.box-contato .contato #instagram {
     }
 
     body>.perfil-advogado .informacoes-advogado h1 {
-        font-size: 7.7vw;
+        font-size: 7.6vw;
         width: 89%;
         position: absolute;
-        bottom: 215px;
+        bottom: 210px;
         background-color: rgba(0, 0, 0, .01);
     }
 
     body>.perfil-advogado p {
         width: 70%;
-        font-size: 4vw;
+        font-size: 3.8vw;
         margin: 50px 0;
         color: rgb(255, 255, 255);
         position: absolute;
-        bottom: 95px;
+        bottom: 60px;
     }
 
     body>.perfil-advogado a {
@@ -507,7 +507,7 @@ main>section.box-contato .contato #instagram {
         margin: 0;
         font-size: 4vw;
         position: absolute;
-        bottom: 18px;
+        bottom: 16px;
     }
 
     body>.perfil-advogado a img {
@@ -585,14 +585,16 @@ main>section.box-contato .contato #instagram {
         margin: 0 0;
     }
 
+    main>section.box-contato {
+        margin: 0 0 0 0px;
+    }
+
+
     main>section.box-contato h4 {
         font-size: 7.7vw;
         margin: 20px 0px 45px;
     }
 
-    main>section.box-contato {
-        margin: 0 0 0 4px;
-    }
 
     main>section.box-contato .contato address,
     main>section.box-contato .contato a {
