@@ -249,13 +249,13 @@ main>section.box-sobre .desc-sobre div.div-p span {
 }
 
 main>section.box-sobre .desc-sobre p {
-    font-size: 2.6vw;
+    font-size: 2.1vw;
     text-align: center;
     padding: 0 2.5vw;
     color: #242e3f;
 }
 
-main>section.box-sobre .desc-sobre div.div-p img {
+main>section.box-sobre .desc-sobre div.div-p .buttom-whats img {
     width: 27px;
     height: 27px;
     padding: 0;
@@ -266,10 +266,10 @@ main>section.box-sobre>.desc-sobre>div.div-p .buttom-whats {
     height: 80px;
     width: 70%;
     text-shadow: none;
-    margin-top: 30px;
+    margin-top: .20vw;
     text-align: start;
     position: relative;
-    top: 3vw;
+    top: 20px;
     font-size: 2.2vw;
 }
 
@@ -347,7 +347,7 @@ main>section.box-contato .contato {
 
 main>section.box-contato .contato address,
 main>section.box-contato .contato a {
-    font-size: 3.1vw;
+    font-size: 2.2vw;
     color: #fff;
     text-decoration: none;
 }
@@ -406,7 +406,7 @@ main>section.box-contato .contato #instagram {
     }
 
     main>section.box-sobre .desc-sobre div.div-p h3 {
-        font-size: 48px;
+        font-size: 47px;
     }
 
     main>section.box-sobre .desc-sobre div.div-p span {
@@ -415,7 +415,7 @@ main>section.box-contato .contato #instagram {
     }
 
     main>section.box-sobre .desc-sobre p {
-        font-size: 2.9vw;
+        font-size: 2.28vw;
         padding: 0 2.8vw;
     }
 
@@ -524,7 +524,7 @@ main>section.box-contato .contato #instagram {
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
-        height: 1300px;
+        /* height: 1300px; */
     }
 
     main>section.box-sobre h4 {
@@ -535,7 +535,7 @@ main>section.box-contato .contato #instagram {
         display: flex;
         flex-direction: column-reverse;
         width: 95%;
-        height: 85%;
+        height: 90%;
         margin-bottom: 30px;
     }
 
@@ -566,8 +566,10 @@ main>section.box-contato .contato #instagram {
     main>section.box-sobre>.desc-sobre>div.div-p .buttom-whats {
         width: 85%;
         position: relative;
-        top: 3vw;
+        top: 1vw;
         font-size: 4.8vw;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     main>section.box-sobre .desc-sobre div.div-img {
