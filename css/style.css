@@ -254,8 +254,8 @@ main>section.box-sobre .desc-sobre div.div-p span {
 
 main>section.box-sobre .desc-sobre p {
     font-size: 2.1vw;
-    text-align: center;
-    padding: 0 2.5vw;
+    text-align: justify;
+    padding: 0 2.8vw;
     color: #242e3f;
 }
 
@@ -551,16 +551,19 @@ main>section.box-contato .contato #instagram {
     }
 
     main>section.box-sobre .desc-sobre div.div-p h3 {
-        margin: 20px 0 1px 0;
+        margin: 18px 0 1px 0;
         font-size: 49px;
     }
 
     main>section.box-sobre .desc-sobre div.div-p span {
         font-size: 35px;
+        margin: 1px 0 34px 0;
     }
 
     main>section.box-sobre .desc-sobre p {
         font-size: 4.8vw;
+        padding: 0 7.2vw;
+
     }
 
     main>section.box-sobre .desc-sobre div.div-p .buttom-whats img {
