@@ -48,8 +48,8 @@ body>.perfil-advogado>.informacoes-advogado {
 
 
 body>.perfil-advogado h1 {
-    font-size: 4.6vw;
-    width: 110%;
+    font-size: 4.65vw;
+    width: 99%;
     margin: 0;
     text-shadow: 4px 4px 3.5px #000;
     color: rgb(255, 255, 255);
@@ -65,15 +65,18 @@ body>.perfil-advogado p {
 
 body>.perfil-advogado a,
 .buttom-whats {
-    background: linear-gradient(to right, rgba(199, 144, 41, 0.65) 30%,
-            rgba(199, 144, 41, 0.78) 45%, rgba(199, 144, 41, 0.95) 80%);
+    background: linear-gradient(to right, rgba(199, 144, 41, 0.7) 30%,
+            rgba(199, 144, 41, 0.79) 45%, rgba(199, 144, 41, 0.96) 75%);
     /* min-height: 80px; */
     width: 98%;
-    max-width: 557px;
+    max-width: 556px;
+    height: 90px;
     padding: 12px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    font-size: 1.91vw;
+    /* text-align: start; */
+    font-size: 2.2vw;
     color: #fff;
     box-shadow: 3px 3px 12px 3px black;
     text-shadow: 1.5px 1.5px 0.3px black;
@@ -85,7 +88,8 @@ body>.perfil-advogado a,
 }
 
 body>.perfil-advogado a img {
-    width: 36px;
+    margin: 0 1vw;
+    width: 5vw;
     filter: brightness(0) saturate(100%) invert(24%) sepia(83%) saturate(600%) hue-rotate(4deg) brightness(93%) contrast(97%);
 }
 
@@ -559,15 +563,15 @@ main>section.box-contato .contato #instagram {
         font-size: 4.8vw;
     }
 
-    main>section.box-sobre .desc-sobre div.div-p img {
-        margin: 0 15px;
+    main>section.box-sobre .desc-sobre div.div-p .buttom-whats img {
+        margin: 0 3vw 0 1vw;
     }
 
     main>section.box-sobre>.desc-sobre>div.div-p .buttom-whats {
-        width: 85%;
+        width: 88%;
         position: relative;
         top: 1vw;
-        font-size: 4.8vw;
+        font-size: 4.5vw;
         margin-top: 20px;
         margin-bottom: 20px;
     }
