@@ -220,7 +220,7 @@ main>section.box-sobre .desc-sobre {
     align-items: end;
     background-color: #e7ecf1;
     width: 95%;
-    height: 608px;
+    height: 625px;
     margin-bottom: 30px;
     display: flex;
 
@@ -245,7 +245,7 @@ main>section.box-sobre .desc-sobre div.div-p h3 {
 
 main>section.box-sobre .desc-sobre div.div-p span {
     font-size: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     margin-top: 1px;
     color: rgb(210, 148, 34);
     /* position: relative;
@@ -253,17 +253,11 @@ main>section.box-sobre .desc-sobre div.div-p span {
 }
 
 main>section.box-sobre .desc-sobre p {
-    font-size: 2.1vw;
+    font-size: 2vw;
     text-align: justify;
-    padding: 0 2.8vw;
+    padding: 0 2.5vw;
     color: #242e3f;
-}
-
-main>section.box-sobre .desc-sobre div.div-p .buttom-whats img {
-    width: 27px;
-    height: 27px;
-    padding: 0;
-    margin: 0 25px;
+    margin-top: 10.8px;
 }
 
 main>section.box-sobre>.desc-sobre>div.div-p .buttom-whats {
@@ -273,9 +267,17 @@ main>section.box-sobre>.desc-sobre>div.div-p .buttom-whats {
     margin-top: .20vw;
     text-align: start;
     position: relative;
-    top: 20px;
+    top: 14px;
     font-size: 2.2vw;
 }
+
+main>section.box-sobre .desc-sobre div.div-p .buttom-whats img {
+    width: 27px;
+    height: 27px;
+    padding: 0;
+    margin: 0 25px;
+}
+
 
 main>section.box-sobre .desc-sobre div.div-img {
     height: 100%;
@@ -552,18 +554,19 @@ main>section.box-contato .contato #instagram {
 
     main>section.box-sobre .desc-sobre div.div-p h3 {
         margin: 18px 0 1px 0;
-        font-size: 49px;
+        font-size: 12vw;
     }
 
     main>section.box-sobre .desc-sobre div.div-p span {
-        font-size: 35px;
-        margin: 1px 0 34px 0;
+        font-size: 5.5vw;
+        margin: 2px 0 15px 0;
     }
 
     main>section.box-sobre .desc-sobre p {
         font-size: 4.8vw;
-        padding: 0 7.2vw;
-
+        padding: 0 6.5vw;
+        margin-top: 12.8px;
+        line-height: 1.07;
     }
 
     main>section.box-sobre .desc-sobre div.div-p .buttom-whats img {
@@ -571,12 +574,13 @@ main>section.box-contato .contato #instagram {
     }
 
     main>section.box-sobre>.desc-sobre>div.div-p .buttom-whats {
-        width: 88%;
+        width: 95%;
         position: relative;
         top: 1vw;
-        font-size: 4.5vw;
+        font-size: 5vw;
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
+        height: auto;
     }
 
     main>section.box-sobre .desc-sobre div.div-img {
