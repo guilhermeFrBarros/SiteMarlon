@@ -109,9 +109,23 @@ main {
     flex-direction: column;
 }
 
-main>h2 {
+main div.icon-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main>div.icon-titulo img {
+    width: 6.2vw;
+    height: 6.2vw;
+    margin-right: 1vw;
+    filter: brightness(0) saturate(100%) invert(13%) sepia(5%) saturate(5068%) hue-rotate(180deg) brightness(91%) contrast(85%);
+}
+
+main>div.icon-titulo>h2 {
+
     text-align: center;
-    font-size: 90px;
+    font-size: 7.5vw;
     color: #242e3f;
     margin: 20px 0;
     text-shadow: 4px 5px 7px rgba(36, 46, 63, 0.7);
@@ -131,7 +145,7 @@ main>.cards-sevico>.card-sevico {
     padding: 0 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: baseline;
     align-items: center;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.8);
@@ -154,13 +168,38 @@ main>.cards-sevico>.card-sevico img {
 
 main>.cards-sevico>.card-sevico h3 {
     color: rgba(199, 144, 41, 0.9);
-    font-size: 45px;
+    font-size: 38px;
+    margin: 10px 1px 15px;
+    height: 95px;
+    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
-main>.cards-sevico>.card-sevico p {
+/* main>.cards-sevico>.card-sevico p {
     color: rgb(36, 46, 63);
     font-size: 23px;
-    padding: 15px 50px;
+    padding: 1px 50px;
+    text-align: start;
+} */
+
+main>.cards-sevico>.card-sevico ul {
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+main>.cards-sevico>.card-sevico ul li {
+    font-size: 25px;
+    text-align: start;
+    margin: 5px 5px;
+    padding: 0 25px;
+    padding-left: 2px;
+    list-style-type: disc;
+    margin-left: 1.5em;
+
 }
 
 main>.cards-sevico>.card-sevico a {
@@ -176,6 +215,7 @@ main>.cards-sevico>.card-sevico a {
     text-decoration: none;
     border-radius: 50px;
     transition: .5s all;
+    margin: 20px 1px;
 }
 
 main>.cards-sevico>.card-sevico a:hover {
@@ -188,6 +228,7 @@ main>.cards-sevico>.card-sevico a img {
 }
 
 main>.cards-sevico>.card-sevico>a p {
+    font-size: 23px;
     width: 180px;
     text-align: center;
     padding: 0;
@@ -406,6 +447,26 @@ main>section.box-contato .contato #instagram {
         width: 27px;
     }
 
+    /* Are de cards */
+
+    main div.icon-titulo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main>div.icon-titulo img {
+        margin-top: 2vh;
+        width: 8.2vw;
+        height: 8.2vw;
+        margin-right: 0;
+    }
+
+
+    main>div.icon-titulo>h2 {
+        font-size: 8.3vw;
+        margin: 10px 0 20px;
+    }
+
     /* box-sobre-*/
     main>section.box-sobre h4 {
         font-size: 54px;
@@ -520,9 +581,52 @@ main>section.box-contato .contato #instagram {
         width: 27px;
     }
 
-    /* card */
-    main>h2 {
-        font-size: 8vw;
+
+
+    /* Are de cards */
+
+    main div.icon-titulo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main>div.icon-titulo img {
+        margin-top: 2vh;
+        width: 15.5vw;
+        height: 15.5vw;
+        margin-right: 0;
+    }
+
+
+    main>div.icon-titulo>h2 {
+        font-size: 11.3vw;
+        margin: 10px 0 20px;
+        width: 92vw;
+    }
+
+    main>div.icon-titulo>hr {
+        width: 63%;
+        height: .01px;
+        border-top: 1.45px solid rgba(199, 144, 41, 0.96);
+        margin: 0 0 10px;
+    }
+
+    main>.cards-sevico>.card-sevico {
+        width: 40vw;
+        min-width: 325px;
+        min-height: none;
+        min-height: 460px;
+        margin: 25px 5px;
+        padding: 0 5px;
+
+    }
+
+    main>.cards-sevico>.card-sevico:hover {
+        transform: scale(1.03);
+    }
+
+    main>.cards-sevico>.card-sevico p {
+        padding: 15px 25px;
     }
 
     /* BOX-SOBRE-------------------------------------------------------- */
