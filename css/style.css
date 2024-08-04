@@ -618,11 +618,15 @@ main>section.box-contato .contato #instagram {
         min-height: 460px;
         margin: 25px 5px;
         padding: 0 5px;
-
+        height: auto;
     }
 
     main>.cards-sevico>.card-sevico:hover {
         transform: scale(1.03);
+    }
+
+    main>.cards-sevico>.card-sevico ul {
+        height: auto;
     }
 
     main>.cards-sevico>.card-sevico p {
