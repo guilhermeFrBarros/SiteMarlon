@@ -109,12 +109,6 @@ main {
     flex-direction: column;
 }
 
-main div.icon-titulo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 main>div.icon-titulo img {
     width: 6.2vw;
     height: 6.2vw;
@@ -122,12 +116,19 @@ main>div.icon-titulo img {
     filter: brightness(0) saturate(100%) invert(13%) sepia(5%) saturate(5068%) hue-rotate(180deg) brightness(91%) contrast(85%);
 }
 
+main>div.icon-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 35px 0 0px;
+}
+
 main>div.icon-titulo>h2 {
 
     text-align: center;
     font-size: 7.5vw;
     color: #242e3f;
-    margin: 20px 0;
+    margin: 0px 0p;
     text-shadow: 4px 5px 7px rgba(36, 46, 63, 0.7);
 }
 
@@ -175,13 +176,6 @@ main>.cards-sevico>.card-sevico h3 {
     display: flex;
     align-items: center;
 }
-
-/* main>.cards-sevico>.card-sevico p {
-    color: rgb(36, 46, 63);
-    font-size: 23px;
-    padding: 1px 50px;
-    text-align: start;
-} */
 
 main>.cards-sevico>.card-sevico ul {
     height: 225px;
@@ -245,7 +239,7 @@ main>section.box-sobre {
     justify-content: center;
     align-items: center;
     align-content: center;
-    min-height: 750px;
+    min-height: 755px;
 }
 
 main>section.box-sobre h4 {
@@ -339,7 +333,7 @@ main>section.box-sobre .desc-sobre img {
 /* Area do Endereço */
 main>.endereco {
     background-color: rgb(231, 236, 241);
-    height: 520px;
+    height: 550px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -356,12 +350,12 @@ main>.endereco>h3 {
 
 main>.endereco>.mapa-conteudo {
     width: 100%;
-    height: 350px;
+    height: 360px;
     margin-bottom: 20px;
 }
 
 main>.endereco>.mapa-conteudo iframe {
-    border-radius: 55px 0 55px 0px;
+    border-radius: 50px 0 50px 0px;
     box-shadow: #000 8px 8px 30px 2px;
 
 }
@@ -597,6 +591,12 @@ main>section.box-contato .contato #instagram {
         margin-right: 0;
     }
 
+    main>div.icon-titulo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 38px 0 -5px;
+    }
 
     main>div.icon-titulo>h2 {
         font-size: 11.3vw;
