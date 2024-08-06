@@ -170,8 +170,8 @@ main>.cards-sevico>.card-sevico:hover {
 }
 
 main>.cards-sevico>.card-sevico img {
-    height: 72px;
-    width: 72px;
+    height: 62px;
+    width: 62px;
 }
 
 main>.cards-sevico>.card-sevico h3 {
@@ -193,7 +193,7 @@ main>.cards-sevico>.card-sevico h3.titulo-imobiliar {
 }
 
 main>.cards-sevico>.card-sevico ul {
-    height: 230px;
+    height: 225px;
     margin-top: -10px;
     display: flex;
     flex-direction: column;
@@ -206,10 +206,10 @@ main>.cards-sevico>.card-sevico ul.list-imobiliar li {
 }
 
 main>.cards-sevico>.card-sevico ul li {
-    font-size: 23.8px;
+    font-size: 22.8px;
     text-align: start;
     margin: 5px 5px;
-    padding: 0 25px;
+    padding: 0 16px;
     padding-left: 2px;
     list-style-type: disc;
     margin-left: 1.5em;
