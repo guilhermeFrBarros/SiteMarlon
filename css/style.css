@@ -110,8 +110,8 @@ main {
 }
 
 main>div.icon-titulo img {
-    width: 6.2vw;
-    height: 6.2vw;
+    width: 5.5vw;
+    height: 5.5vw;
     margin-right: 1vw;
     filter: brightness(0) saturate(100%) invert(13%) sepia(5%) saturate(5068%) hue-rotate(180deg) brightness(91%) contrast(85%);
 }
@@ -120,22 +120,29 @@ main>div.icon-titulo {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 35px 0 0px;
+    margin: 30px 0 0px;
 }
 
 main>div.icon-titulo>h2 {
-
     text-align: center;
-    font-size: 7.5vw;
+    font-size: 6.5vw;
     color: #242e3f;
     margin: 0px 0p;
     text-shadow: 4px 5px 7px rgba(36, 46, 63, 0.7);
+}
+
+main>hr {
+    width: 40%;
+    height: .02px;
+    border-top: 1.85px solid rgba(199, 144, 41, 0.5);
+    margin: 25px auto 35px;
 }
 
 main>.cards-sevico {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding: 0px 0 20px;
 }
 
 main>.cards-sevico>.card-sevico {
@@ -169,24 +176,37 @@ main>.cards-sevico>.card-sevico img {
 
 main>.cards-sevico>.card-sevico h3 {
     color: rgba(199, 144, 41, 0.9);
-    font-size: 38px;
-    margin: 10px 1px 15px;
+    font-size: 35px;
+    margin: 8px 1px 10px;
     height: 95px;
     text-align: center;
     display: flex;
     align-items: center;
 }
 
+main>.cards-sevico>.card-sevico h3.titulo-imobiliar {
+    font-size: 38px;
+}
+
+.cards-sevico>.card-sevico ul.list-imobiliar {
+    height: 250px;
+}
+
 main>.cards-sevico>.card-sevico ul {
-    height: 225px;
+    height: 230px;
+    margin-top: -10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 
 }
 
+main>.cards-sevico>.card-sevico ul.list-imobiliar li {
+    font-size: 22px;
+}
+
 main>.cards-sevico>.card-sevico ul li {
-    font-size: 25px;
+    font-size: 23.8px;
     text-align: start;
     margin: 5px 5px;
     padding: 0 25px;
@@ -458,7 +478,21 @@ main>section.box-contato .contato #instagram {
 
     main>div.icon-titulo>h2 {
         font-size: 8.3vw;
-        margin: 10px 0 20px;
+        margin: 5px 0 5px 0;
+    }
+
+    main>hr {
+        margin-bottom: 10px;
+    }
+
+    main>.cards-sevico>.card-sevico ul li {
+        margin-top: 18px;
+    }
+
+    main>.cards-sevico>.card-sevico ul,
+    main>.cards-sevico>.card-sevico ul.list-imobiliar {
+        min-height: 250px;
+        height: auto;
     }
 
     /* box-sobre-*/
@@ -599,17 +633,18 @@ main>section.box-contato .contato #instagram {
     }
 
     main>div.icon-titulo>h2 {
-        font-size: 11.3vw;
+        font-size: 12.5vw;
         margin: 10px 0 20px;
         width: 92vw;
     }
 
-    main>div.icon-titulo>hr {
+    main>hr {
         width: 63%;
         height: .01px;
         border-top: 1.45px solid rgba(199, 144, 41, 0.96);
-        margin: 0 0 10px;
+        margin: 15px auto 25px;
     }
+
 
     main>.cards-sevico>.card-sevico {
         width: 40vw;
@@ -621,12 +656,24 @@ main>section.box-contato .contato #instagram {
         height: auto;
     }
 
+    main>.cards-sevico>.card-sevico h3.titulo-imobiliar {
+        font-size: 35px;
+        padding: 0px 20px;
+    }
+
     main>.cards-sevico>.card-sevico:hover {
         transform: scale(1.03);
     }
 
-    main>.cards-sevico>.card-sevico ul {
+    /* .cards-sevico>.card-sevico ul.list-imobiliar */
+    main>.cards-sevico>.card-sevico ul,
+    .cards-sevico>.card-sevico ul.list-imobiliar {
         height: auto;
+        min-height: 180px;
+    }
+
+    main>.cards-sevico>.card-sevico ul li {
+        margin-top: 18px;
     }
 
     main>.cards-sevico>.card-sevico p {
@@ -725,5 +772,15 @@ main>section.box-contato .contato #instagram {
     main>section.box-contato .contato img {
         width: 28px;
         margin: 0px 5px 0 -10px;
+    }
+
+    /* Endereço */
+    main>.endereco {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    main>.endereco>h3 {
+        font-size: 11.5vw;
     }
 }
